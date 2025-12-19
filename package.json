@@ -1,0 +1,19 @@
+{
+  "name": "aurora-mc-launcher",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Launcher Minecraft open-source, moderne et sécurisé (base extensible).",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "scripts": {
+    "dev": "npm run -w @aurora/desktop dev",
+    "build": "npm run -w @aurora/core build && npm run -w @aurora/desktop build",
+    "typecheck": "npm run -w @aurora/core typecheck && npm run -w @aurora/desktop typecheck"
+  }
+}

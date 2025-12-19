@@ -1,0 +1,19 @@
+{
+  "maintenance": {
+    "enabled": false,
+    "message": "Maintenance en cours. Merci de réessayer plus tard."
+  },
+  "news": {
+    "title": "Actualités",
+    "items": [
+      {
+        "id": "welcome",
+        "title": "Bienvenue sur Aurora",
+        "body": "Launcher open-source, moderne et extensible.",
+        "url": "https://github.com/<owner>/<repo>",
+        "date": "2025-01-01"
+      }
+    ]
+  }
+}
+

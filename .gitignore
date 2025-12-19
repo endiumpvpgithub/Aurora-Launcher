@@ -1,0 +1,14 @@
+node_modules
+dist
+out
+build
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+apps/desktop/release
+apps/desktop/.vite
+apps/desktop/.electron
+

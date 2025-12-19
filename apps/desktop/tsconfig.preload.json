@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "Node16",
+    "moduleResolution": "Node16",
+    "outDir": ".electron/preload",
+    "rootDir": "src/preload",
+    "noEmit": false
+  },
+  "include": ["src/preload"]
+}
